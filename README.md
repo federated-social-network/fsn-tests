@@ -1,6 +1,6 @@
 # FSN Test Automation README
 
-This directory contains the automated test assets for the project, the Federated Social Network.
+This directory contains the test assets for the project, the Federated Social Network.
 
 The goal is to ensure critical user workflows continue to work reliably across releases.
 
