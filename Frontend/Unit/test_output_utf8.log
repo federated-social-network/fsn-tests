@@ -1,0 +1,13 @@
+﻿
+ RUN  v4.0.18 C:/Users/username/Desktop/fsn-frontend
+
+ Γ¥» src/pages/Profile.test.tsx (3 tests | 3 failed) 235ms
+     ├ù renders profile information correctly 129ms
+     ├ù updates username and redirects 54ms
+     ├ù updates email and persists change in edit form 50ms
+
+ Test Files  1 failed (1)
+      Tests  3 failed (3)
+   Start at  18:23:06
+   Duration  2.18s (transform 176ms, setup 118ms, import 558ms, tests 235ms, environment 969ms)
+

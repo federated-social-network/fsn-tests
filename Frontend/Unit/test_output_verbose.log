@@ -1,0 +1,1001 @@
+﻿
+ RUN  v4.0.18 C:/Users/username/Desktop/fsn-frontend
+
+ ├ù src/pages/Profile.test.tsx > Profile Component > renders profile information correctly 104ms
+   ΓåÆ Unable to find an element with the text: Test User. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"h-screen flex flex-col overflow-hidden"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"md:hidden shrink-0 z-40 bg-white/90 backdrop-blur-sm border-b border-gray-200 px-4 py-3"[39m
+      [36m>[39m
+        [36m<a[39m
+          [33mclass[39m=[32m"font-hand text-lg hover:text-[var(--primary)] transition-colors inline-flex items-center gap-2"[39m
+          [33mdata-discover[39m=[32m"true"[39m
+          [33mhref[39m=[32m"/dashboard"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-xl"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"1em"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"1em"[39m
+            [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+          [36m>[39m
+            [36m<line[39m
+              [33mx1[39m=[32m"19"[39m
+              [33mx2[39m=[32m"5"[39m
+              [33my1[39m=[32m"12"[39m
+              [33my2[39m=[32m"12"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 19 5 12 12 5"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0m Back to Feed[0m
+        [36m</a>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 max-w-7xl mx-auto w-full flex flex-col md:grid md:grid-cols-12 h-full"[39m
+      [36m>[39m
+        [36m<aside[39m
+          [33mclass[39m=[32m"md:col-span-4 lg:col-span-3 md:h-full md:overflow-y-auto p-3 sm:p-4 md:border-r border-dashed border-gray-300 bg-white/30 backdrop-blur-sm"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"mb-4 sm:mb-6 hidden md:block"[39m
+          [36m>[39m
+            [36m<a[39m
+              [33mclass[39m=[32m"font-hand text-lg sm:text-xl hover:text-[var(--primary)] transition-colors inline-flex items-center gap-2"[39m
+              [33mdata-discover[39m=[32m"true"[39m
+              [33mhref[39m=[32m"/dashboard"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33mfill[39m=[32m"none"[39m
+                [33mheight[39m=[32m"1em"[39m
+                [33mstroke[39m=[32m"currentColor"[39m
+                [33mstroke-linecap[39m=[32m"round"[39m
+                [33mstroke-linejoin[39m=[32m"round"[39m
+                [33mstroke-width[39m=[32m"2"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [33mwidth[39m=[32m"1em"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<line[39m
+                  [33mx1[39m=[32m"19"[39m
+                  [33mx2[39m=[32m"5"[39m
+                  [33my1[39m=[32m"12"[39m
+                  [33my2[39m=[32m"12"[39m
+                [36m/>[39m
+                [36m<polyline[39m
+                  [33mpoints[39m=[32m"12 19 5 12 12 5"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+              [0m Back[0m
+            [36m</a>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"
+    relative 
+    transition-all duration-300 
+    rounded-lg
+    border-2 border-[var(--ink-primary)]
+    bg-[var(--paper-white)] text-[var(--ink-primary)]
+    p-4 sm:p-6 bg-[var(--pastel-blue)] mobile-flat
+  "[39m
+            [33mstyle[39m=[32m"transform: none;"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"absolute -top-3 left-1/2 -translate-x-1/2 z-20 pointer-events-none drop-shadow-sm"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33mfill[39m=[32m"none"[39m
+                [33mheight[39m=[32m"30"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [33mwidth[39m=[32m"30"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M12 2C13.1046 2 14 2.89543 14 4V8H15V10H13V18L12 22L11 18V10H9V8H10V4C10 2.89543 10.8954 2 12 2Z"[39m
+                  [33mfill[39m=[32m"#ef4444"[39m
+                  [33mstroke[39m=[32m"#333"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"1.5"[39m
+                [36m/>[39m
+                [36m<circle[39m
+                  [33mcx[39m=[32m"12"[39m
+                  [33mcy[39m=[32m"4"[39m
+                  [33mfill[39m=[32m"color-mix(in srgb, #ef4444, white 30%)"[39m
+                  [33mr[39m=[32m"2"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex flex-row md:flex-col items-center md:items-center gap-4 md:gap-0 md:text-center relative"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full bg-[var(--bg-surface)] p-1 sm:p-1.5 shadow-xl border-2 border-[var(--ink-primary)] md:mb-4 shrink-0"[39m
+              [36m>[39m
+                [36m<img[39m
+                  [33malt[39m=[32m"avatar"[39m
+                  [33mclass[39m=[32m"w-full h-full object-cover rounded-full"[39m
+                  [33msrc[39m=[32m"http://example.com/avatar.jpg"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"flex-1 md:flex-none text-left md:text-center min-w-0"[39m
+              [36m>[39m
+                [36m<h1[39m
+                  [33mclass[39m=[32m"text-xl sm:text-2xl md:text-3xl font-bold font-sketch mb-0.5 sm:mb-1 truncate md:break-all"[39m
+                [36m>[39m
+                  [0mtestuser[0m
+                [36m</h1>[39m
+                [36m<p[39m
+                  [33mclass[39m=[32m"text-sm sm:text-base md:text-lg font-hand text-[var(--ink-secondary)] truncate"[39m
+                [36m>[39m
+                  [0m@[0m
+                  [0mtestuser[0m
+                [36m</p>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"w-full mt-4 sm:mt-6 flex flex-col sm:flex-row gap-2"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"flex-1 px-4 sm:px-6 py-2 bg-white hover:bg-[var(--highlighter-yellow)] text-black border-2 border-black font-heading rounded transition-colors shadow-sketch flex items-center justify-center gap-2 text-sm sm:text-base"[39m
+              [36m>[39m
+                [36m<svg[39m
+                  [33mfill[39m=[32m"none"[39m
+                  [33mheight[39m=[32m"1em"[39m
+                  [33mstroke[39m=[32m"currentColor"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"2"[39m
+                  [33mviewBox[39m=[32m"0 0 24 24"[39m
+                  [33mwidth[39m=[32m"1em"[39m
+                  [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                [36m>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"[39m
+                  [36m/>[39m
+                [36m</svg>[39m
+                [0m Edit Profile[0m
+              [36m</button>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"mt-4 sm:mt-8 space-y-4 sm:space-y-6"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"flex justify-around py-3 sm:py-4 border-y-2 border-dashed border-[var(--ink-secondary)]"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"text-center flex-1"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"text-lg sm:text-2xl font-sketch"[39m
+                  [36m>[39m
+                    [0m0[0m
+                  [36m</div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"text-xs sm:text-sm font-hand text-[var(--ink-secondary)]"[39m
+                  [36m>[39m
+                    [0mPosts[0m
+                  [36m</div>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"text-center flex-1 border-l border-dashed border-gray-400 cursor-pointer hover:bg-black/5 active:bg-black/10 transition-colors rounded"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"text-lg sm:text-2xl font-sketch"[39m
+                  [36m>[39m
+                    [0m5[0m
+                  [36m</div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"text-xs sm:text-sm font-hand text-[var(--ink-secondary)]"[39m
+                  [36m>[39m
+                    [0mConnections[0m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"font-hand text-sm sm:text-lg leading-relaxed bg-[#fff] p-2.5 sm:p-3 border border-dashed border-gray-300 shadow-sm relative"[39m
+              [36m>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"absolute -top-2.5 sm:-top-3 left-2 bg-white px-1 text-[10px] sm:text-xs font-marker text-gray-400"[39m
+                [36m>[39m
+                  [0mBIO[0m
+                [36m</span>[39m
+                [0mThis is a test bio[0m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</aside>[39m
+        [36m<main[39m
+          [33mclass[39m=[32m"md:col-span-8 lg:col-span-9 flex-1 md:h-full overflow-y-auto px-3 sm:px-4 md:px-8 py-4 sm:py-6 no-scrollbar"[39m
+          [33mstyle[39m=[32m"scrollbar-width: none;"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"font-sketch text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 md:mb-8 flex items-center gap-2"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33mclass[39m=[32m"text-xl sm:text-2xl md:text-4xl"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"1em"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"1em"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<rect[39m
+                [33mheight[39m=[32m"7"[39m
+                [33mwidth[39m=[32m"7"[39m
+                [33mx[39m=[32m"3"[39m
+                [33my[39m=[32m"3"[39m
+              [36m/>[39m
+              [36m<rect[39m
+                [33mheight[39m=[32m"7"[39m
+                [33mwidth[39m=[32m"7"[39m
+                [33mx[39m=[32m"14"[39m
+                [33my[39m=[32m"3"[39m
+              [36m/>[39m
+              [36m<rect[39m
+                [33mheight[39m=[32m"7"[39m
+                [33mwidth[39m=[32m"7"[39m
+                [33mx[39m=[32m"14"[39m
+                [33my[39m=[32m"14"[39m
+              [36m/>[39m
+              [36m<rect[39m
+                [33mheight[39m=[32m"7"[39m
+                [33mwidth[39m=[32m"7"[39m
+                [33mx[39m=[32m"3"[39m
+                [33my[39m=[32m"14"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [0mMy Scribbles[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"text-center py-12 sm:py-20 opacity-60"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33mclass[39m=[32m"text-4xl sm:text-6xl mx-auto mb-4"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"1em"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"1em"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"[39m
+              [36m/>[39m
+              [36m<polyline[39m
+                [33mpoints[39m=[32m"14 2 14 8 20 8"[39m
+              [36m/>[39m
+              [36m<line[39m
+                [33mx1[39m=[32m"16"[39m
+                [33mx2[39m=[32m"8"[39m
+                [33my1[39m=[32m"13"[39m
+                [33my2[39m=[32m"13"[39m
+              [36m/>[39m
+              [36m<line[39m
+                [33mx1[39m=[32m"16"[39m
+                [33mx2[39m=[32m"8"[39m
+                [33my1[39m=[32m"17"[39m
+                [33my2[39m=[32m"17"[39m
+              [36m/>[39m
+              [36m<polyline[39m
+                [33mpoints[39m=[32m"10 9 9 9 8 9"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"font-sketch text-xl sm:text-2xl"[39m
+            [36m>[39m
+              [0mBlank Page[0m
+            [36m</div>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"font-hand text-base sm:text-lg mt-2"[39m
+            [36m>[39m
+              [0mNo scribbles found for this user.[0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</main>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ├ù src/pages/Profile.test.tsx > Profile Component > updates username and redirects 61ms
+   ΓåÆ Found a label with the text of: Username, however no form control was found associated to that label. Make sure you're using the "for" attribute or "aria-labelledby" attribute correctly.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"h-screen flex flex-col overflow-hidden"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"md:hidden shrink-0 z-40 bg-white/90 backdrop-blur-sm border-b border-gray-200 px-4 py-3"[39m
+      [36m>[39m
+        [36m<a[39m
+          [33mclass[39m=[32m"font-hand text-lg hover:text-[var(--primary)] transition-colors inline-flex items-center gap-2"[39m
+          [33mdata-discover[39m=[32m"true"[39m
+          [33mhref[39m=[32m"/dashboard"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-xl"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"1em"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"1em"[39m
+            [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+          [36m>[39m
+            [36m<line[39m
+              [33mx1[39m=[32m"19"[39m
+              [33mx2[39m=[32m"5"[39m
+              [33my1[39m=[32m"12"[39m
+              [33my2[39m=[32m"12"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 19 5 12 12 5"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0m Back to Feed[0m
+        [36m</a>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 max-w-7xl mx-auto w-full flex flex-col md:grid md:grid-cols-12 h-full"[39m
+      [36m>[39m
+        [36m<aside[39m
+          [33mclass[39m=[32m"md:col-span-4 lg:col-span-3 md:h-full md:overflow-y-auto p-3 sm:p-4 md:border-r border-dashed border-gray-300 bg-white/30 backdrop-blur-sm"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"mb-4 sm:mb-6 hidden md:block"[39m
+          [36m>[39m
+            [36m<a[39m
+              [33mclass[39m=[32m"font-hand text-lg sm:text-xl hover:text-[var(--primary)] transition-colors inline-flex items-center gap-2"[39m
+              [33mdata-discover[39m=[32m"true"[39m
+              [33mhref[39m=[32m"/dashboard"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33mfill[39m=[32m"none"[39m
+                [33mheight[39m=[32m"1em"[39m
+                [33mstroke[39m=[32m"currentColor"[39m
+                [33mstroke-linecap[39m=[32m"round"[39m
+                [33mstroke-linejoin[39m=[32m"round"[39m
+                [33mstroke-width[39m=[32m"2"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [33mwidth[39m=[32m"1em"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<line[39m
+                  [33mx1[39m=[32m"19"[39m
+                  [33mx2[39m=[32m"5"[39m
+                  [33my1[39m=[32m"12"[39m
+                  [33my2[39m=[32m"12"[39m
+                [36m/>[39m
+                [36m<polyline[39m
+                  [33mpoints[39m=[32m"12 19 5 12 12 5"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+              [0m Back[0m
+            [36m</a>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"
+    relative 
+    transition-all duration-300 
+    rounded-lg
+    border-2 border-[var(--ink-primary)]
+    bg-[var(--paper-white)] text-[var(--ink-primary)]
+    p-4 sm:p-6 bg-[var(--pastel-blue)] mobile-flat
+  "[39m
+            [33mstyle[39m=[32m"transform: none;"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"absolute -top-3 left-1/2 -translate-x-1/2 z-20 pointer-events-none drop-shadow-sm"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33mfill[39m=[32m"none"[39m
+                [33mheight[39m=[32m"30"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [33mwidth[39m=[32m"30"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M12 2C13.1046 2 14 2.89543 14 4V8H15V10H13V18L12 22L11 18V10H9V8H10V4C10 2.89543 10.8954 2 12 2Z"[39m
+                  [33mfill[39m=[32m"#ef4444"[39m
+                  [33mstroke[39m=[32m"#333"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"1.5"[39m
+                [36m/>[39m
+                [36m<circle[39m
+                  [33mcx[39m=[32m"12"[39m
+                  [33mcy[39m=[32m"4"[39m
+                  [33mfill[39m=[32m"color-mix(in srgb, #ef4444, white 30%)"[39m
+                  [33mr[39m=[32m"2"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex flex-row md:flex-col items-center md:items-center gap-4 md:gap-0 md:text-center relative"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full bg-[var(--bg-surface)] p-1 sm:p-1.5 shadow-xl border-2 border-[var(--ink-primary)] md:mb-4 shrink-0"[39m
+              [36m>[39m
+                [36m<img[39m
+                  [33malt[39m=[32m"avatar preview"[39m
+                  [33mclass[39m=[32m"w-full h-full object-cover rounded-full"[39m
+                  [33msrc[39m=[32m"http://example.com/avatar.jpg"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"absolute bottom-0 right-0 bg-[var(--primary)] text-white p-1.5 sm:p-2 rounded-full cursor-pointer shadow-sketch hover:scale-105 transition-transform text-xs font-bold font-heading border-2 border-black"[39m
+                [36m>[39m
+                  [36m<svg[39m
+                    [33mclass[39m=[32m"text-sm"[39m
+                    [33mfill[39m=[32m"none"[39m
+                    [33mheight[39m=[32m"1em"[39m
+                    [33mstroke[39m=[32m"currentColor"[39m
+                    [33mstroke-linecap[39m=[32m"round"[39m
+                    [33mstroke-linejoin[39m=[32m"round"[39m
+                    [33mstroke-width[39m=[32m"2"[39m
+                    [33mviewBox[39m=[32m"0 0 24 24"[39m
+                    [33mwidth[39m=[32m"1em"[39m
+                    [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                  [36m>[39m
+                    [36m<path[39m
+                      [33md[39m=[32m"M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"[39m
+                    [36m/>[39m
+                  [36m</svg>[39m
+                  [36m<input[39m
+                    [33maccept[39m=[32m"image/*"[39m
+                    [33mclass[39m=[32m"hidden"[39m
+                    [33mtype[39m=[32m"file"[39m
+                  [36m/>[39m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"flex-1 md:flex-none text-left md:text-center min-w-0"[39m
+              [36m>[39m
+                [36m<h1[39m
+                  [33mclass[39m=[32m"text-xl sm:text-2xl md:text-3xl font-bold font-sketch mb-0.5 sm:mb-1 truncate md:break-all"[39m
+                [36m>[39m
+                  [0mtestuser[0m
+                [36m</h1>[39m
+                [36m<p[39m
+                  [33mclass[39m=[32m"text-sm sm:text-base md:text-lg font-hand text-[var(--ink-secondary)] truncate"[39m
+                [36m>[39m
+                  [0m@[0m
+                  [0mtestuser[0m
+                [36m</p>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"w-full mt-4 sm:mt-6 flex flex-col sm:flex-row gap-2"[39m
+            [36m/>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"mt-6 space-y-4 border-t-2 border-dashed border-black pt-4"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-heading mb-1"[39m
+                [36m>[39m
+                  [0mUsername[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full font-hand text-lg border-b-2 border-black px-1 focus:border-[var(--primary)] outline-none bg-transparent"[39m
+                  [33mvalue[39m=[32m"testuser"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-heading mb-1"[39m
+                [36m>[39m
+                  [0mDisplay Name[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full font-hand text-lg border-b-2 border-black px-1 focus:border-[var(--primary)] outline-none bg-transparent"[39m
+                  [33mvalue[39m=[32m"Test User"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-heading mb-1"[39m
+                [36m>[39m
+                  [0mBio[0m
+                [36m</label>[39m
+                [36m<textarea[39m
+                  [33mclass[39m=[32m"w-full font-hand text-lg border-2 border-[var(--ink-secondary)] rounded p-2 focus:border-[var(--primary)] outline-none bg-white/50"[39m
+                  [33mrows[39m=[32m"3"[39m
+                [36m>[39m
+                  [0mThis is a test bio[0m
+                [36m</textarea>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-heading mb-1"[39m
+                [36m>[39m
+                  [0mEmail[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full font-hand text-lg border-b-2 border-black px-1 focus:border-[var(--primary)] outline-none bg-transparent"[39m
+                  [33mvalue[39m=[32m"test@example.com"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"flex flex-col gap-2 pt-2"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"bg-[var(--primary)] text-white border-2 border-black font-heading px-4 py-2 rounded shadow-sketch"[39m
+                [36m>[39m
+                  [0mSave[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"text-[var(--ink-secondary)] font-hand hover:underline py-1"[39m
+                [36m>[39m
+                  [0mCancel[0m
+                [36m</button>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</aside>[39m
+        [36m<main[39m
+          [33mclass[39m=[32m"md:col-span-8 lg:col-span-9 flex-1 md:h-full overflow-y-auto px-3 sm:px-4 md:px-8 py-4 sm:py-6 no-scrollbar"[39m
+          [33mstyle[39m=[32m"scrollbar-width: none;"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"font-sketch text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 md:mb-8 flex items-center gap-2"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33mclass[39m=[32m"text-xl sm:text-2xl md:text-4xl"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"1em"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"1em"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<rect[39m
+                [33mheight[39m=[32m"7"[39m
+                [33mwidth[39m=[32m"7"[39m
+                [33mx[39m=[32m"3"[39m
+                [33my[39m=[32m"3"[39m
+              [36m/>[39m
+              [36m<rect[39m
+                [33mheight[39m=[32m"7"[39m
+                [33mwidth[39m=[32m"7"[39m
+                [33mx[39m=[32m"14"[39m
+                [33my[39m=[32m"3"[39m
+              [36m/>[39m
+              [36m<rect[39m
+                [33mheight[39m=[32m"7"[39m
+                [33mwidth[39m=[32m"7"[39m
+                [33mx[39m=[32m"14"[39m
+                [33my[39m=[32m"14"[39m
+              [36m/>[39m
+              [36m<rect[39m
+                [33mheight[39m=[32m"7"[39m
+                [33mwidth[39m=[32m"7"[39m
+                [33mx[39m=[32m"3"[39m
+                [33my[39m=[32m"14"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [0mMy Scribbles[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"text-center py-12 sm:py-20 opacity-60"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33mclass[39m=[32m"text-4xl sm:text-6xl mx-auto mb-4"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"1em"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"1em"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"[39m
+              [36m/>[39m
+              [36m<polyline[39m
+                [33mpoints[39m=[32m"14 2 14 8 20 8"[39m
+              [36m/>[39m
+              [36m<line[39m
+                [33mx1[39m=[32m"16"[39m
+                [33mx2[39m=[32m"8"[39m
+                [33my1[39m=[32m"13"[39m
+                [33my2[39m=[32m"13"[39m
+              [36m/>[39m
+              [36m<line[39m
+                [33mx1[39m=[32m"16"[39m
+                [33mx2[39m=[32m"8"[39m
+                [33my1[39m=[32m"17"[39m
+                [33my2[39m=[32m"17"[39m
+              [36m/>[39m
+              [36m<polyline[39m
+                [33mpoints[39m=[32m"10 9 9 9 8 9"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"font-sketch text-xl sm:text-2xl"[39m
+            [36m>[39m
+              [0mBlank Page[0m
+            [36m</div>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"font-hand text-base sm:text-lg mt-2"[39m
+            [36m>[39m
+              [0mNo scribbles found for this user.[0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</main>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ├ù src/pages/Profile.test.tsx > Profile Component > updates email and persists change in edit form 49ms
+   ΓåÆ Found a label with the text of: Email, however no form control was found associated to that label. Make sure you're using the "for" attribute or "aria-labelledby" attribute correctly.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"h-screen flex flex-col overflow-hidden"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"md:hidden shrink-0 z-40 bg-white/90 backdrop-blur-sm border-b border-gray-200 px-4 py-3"[39m
+      [36m>[39m
+        [36m<a[39m
+          [33mclass[39m=[32m"font-hand text-lg hover:text-[var(--primary)] transition-colors inline-flex items-center gap-2"[39m
+          [33mdata-discover[39m=[32m"true"[39m
+          [33mhref[39m=[32m"/dashboard"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-xl"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"1em"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"1em"[39m
+            [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+          [36m>[39m
+            [36m<line[39m
+              [33mx1[39m=[32m"19"[39m
+              [33mx2[39m=[32m"5"[39m
+              [33my1[39m=[32m"12"[39m
+              [33my2[39m=[32m"12"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 19 5 12 12 5"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0m Back to Feed[0m
+        [36m</a>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 max-w-7xl mx-auto w-full flex flex-col md:grid md:grid-cols-12 h-full"[39m
+      [36m>[39m
+        [36m<aside[39m
+          [33mclass[39m=[32m"md:col-span-4 lg:col-span-3 md:h-full md:overflow-y-auto p-3 sm:p-4 md:border-r border-dashed border-gray-300 bg-white/30 backdrop-blur-sm"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"mb-4 sm:mb-6 hidden md:block"[39m
+          [36m>[39m
+            [36m<a[39m
+              [33mclass[39m=[32m"font-hand text-lg sm:text-xl hover:text-[var(--primary)] transition-colors inline-flex items-center gap-2"[39m
+              [33mdata-discover[39m=[32m"true"[39m
+              [33mhref[39m=[32m"/dashboard"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33mfill[39m=[32m"none"[39m
+                [33mheight[39m=[32m"1em"[39m
+                [33mstroke[39m=[32m"currentColor"[39m
+                [33mstroke-linecap[39m=[32m"round"[39m
+                [33mstroke-linejoin[39m=[32m"round"[39m
+                [33mstroke-width[39m=[32m"2"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [33mwidth[39m=[32m"1em"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<line[39m
+                  [33mx1[39m=[32m"19"[39m
+                  [33mx2[39m=[32m"5"[39m
+                  [33my1[39m=[32m"12"[39m
+                  [33my2[39m=[32m"12"[39m
+                [36m/>[39m
+                [36m<polyline[39m
+                  [33mpoints[39m=[32m"12 19 5 12 12 5"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+              [0m Back[0m
+            [36m</a>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"
+    relative 
+    transition-all duration-300 
+    rounded-lg
+    border-2 border-[var(--ink-primary)]
+    bg-[var(--paper-white)] text-[var(--ink-primary)]
+    p-4 sm:p-6 bg-[var(--pastel-blue)] mobile-flat
+  "[39m
+            [33mstyle[39m=[32m"transform: none;"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"absolute -top-3 left-1/2 -translate-x-1/2 z-20 pointer-events-none drop-shadow-sm"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33mfill[39m=[32m"none"[39m
+                [33mheight[39m=[32m"30"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [33mwidth[39m=[32m"30"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M12 2C13.1046 2 14 2.89543 14 4V8H15V10H13V18L12 22L11 18V10H9V8H10V4C10 2.89543 10.8954 2 12 2Z"[39m
+                  [33mfill[39m=[32m"#ef4444"[39m
+                  [33mstroke[39m=[32m"#333"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"1.5"[39m
+                [36m/>[39m
+                [36m<circle[39m
+                  [33mcx[39m=[32m"12"[39m
+                  [33mcy[39m=[32m"4"[39m
+                  [33mfill[39m=[32m"color-mix(in srgb, #ef4444, white 30%)"[39m
+                  [33mr[39m=[32m"2"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex flex-row md:flex-col items-center md:items-center gap-4 md:gap-0 md:text-center relative"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full bg-[var(--bg-surface)] p-1 sm:p-1.5 shadow-xl border-2 border-[var(--ink-primary)] md:mb-4 shrink-0"[39m
+              [36m>[39m
+                [36m<img[39m
+                  [33malt[39m=[32m"avatar preview"[39m
+                  [33mclass[39m=[32m"w-full h-full object-cover rounded-full"[39m
+                  [33msrc[39m=[32m"http://example.com/avatar.jpg"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"absolute bottom-0 right-0 bg-[var(--primary)] text-white p-1.5 sm:p-2 rounded-full cursor-pointer shadow-sketch hover:scale-105 transition-transform text-xs font-bold font-heading border-2 border-black"[39m
+                [36m>[39m
+                  [36m<svg[39m
+                    [33mclass[39m=[32m"text-sm"[39m
+                    [33mfill[39m=[32m"none"[39m
+                    [33mheight[39m=[32m"1em"[39m
+                    [33mstroke[39m=[32m"currentColor"[39m
+                    [33mstroke-linecap[39m=[32m"round"[39m
+                    [33mstroke-linejoin[39m=[32m"round"[39m
+                    [33mstroke-width[39m=[32m"2"[39m
+                    [33mviewBox[39m=[32m"0 0 24 24"[39m
+                    [33mwidth[39m=[32m"1em"[39m
+                    [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                  [36m>[39m
+                    [36m<path[39m
+                      [33md[39m=[32m"M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"[39m
+                    [36m/>[39m
+                  [36m</svg>[39m
+                  [36m<input[39m
+                    [33maccept[39m=[32m"image/*"[39m
+                    [33mclass[39m=[32m"hidden"[39m
+                    [33mtype[39m=[32m"file"[39m
+                  [36m/>[39m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"flex-1 md:flex-none text-left md:text-center min-w-0"[39m
+              [36m>[39m
+                [36m<h1[39m
+                  [33mclass[39m=[32m"text-xl sm:text-2xl md:text-3xl font-bold font-sketch mb-0.5 sm:mb-1 truncate md:break-all"[39m
+                [36m>[39m
+                  [0mtestuser[0m
+                [36m</h1>[39m
+                [36m<p[39m
+                  [33mclass[39m=[32m"text-sm sm:text-base md:text-lg font-hand text-[var(--ink-secondary)] truncate"[39m
+                [36m>[39m
+                  [0m@[0m
+                  [0mtestuser[0m
+                [36m</p>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"w-full mt-4 sm:mt-6 flex flex-col sm:flex-row gap-2"[39m
+            [36m/>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"mt-6 space-y-4 border-t-2 border-dashed border-black pt-4"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-heading mb-1"[39m
+                [36m>[39m
+                  [0mUsername[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full font-hand text-lg border-b-2 border-black px-1 focus:border-[var(--primary)] outline-none bg-transparent"[39m
+                  [33mvalue[39m=[32m"testuser"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-heading mb-1"[39m
+                [36m>[39m
+                  [0mDisplay Name[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full font-hand text-lg border-b-2 border-black px-1 focus:border-[var(--primary)] outline-none bg-transparent"[39m
+                  [33mvalue[39m=[32m"Test User"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-heading mb-1"[39m
+                [36m>[39m
+                  [0mBio[0m
+                [36m</label>[39m
+                [36m<textarea[39m
+                  [33mclass[39m=[32m"w-full font-hand text-lg border-2 border-[var(--ink-secondary)] rounded p-2 focus:border-[var(--primary)] outline-none bg-white/50"[39m
+                  [33mrows[39m=[32m"3"[39m
+                [36m>[39m
+                  [0mThis is a test bio[0m
+                [36m</textarea>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-heading mb-1"[39m
+                [36m>[39m
+                  [0mEmail[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full font-hand text-lg border-b-2 border-black px-1 focus:border-[var(--primary)] outline-none bg-transparent"[39m
+                  [33mvalue[39m=[32m"test@example.com"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"flex flex-col gap-2 pt-2"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"bg-[var(--primary)] text-white border-2 border-black font-heading px-4 py-2 rounded shadow-sketch"[39m
+                [36m>[39m
+                  [0mSave[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"text-[var(--ink-secondary)] font-hand hover:underline py-1"[39m
+                [36m>[39m
+                  [0mCancel[0m
+                [36m</button>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</aside>[39m
+        [36m<main[39m
+          [33mclass[39m=[32m"md:col-span-8 lg:col-span-9 flex-1 md:h-full overflow-y-auto px-3 sm:px-4 md:px-8 py-4 sm:py-6 no-scrollbar"[39m
+          [33mstyle[39m=[32m"scrollbar-width: none;"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"font-sketch text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 md:mb-8 flex items-center gap-2"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33mclass[39m=[32m"text-xl sm:text-2xl md:text-4xl"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"1em"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"1em"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<rect[39m
+                [33mheight[39m=[32m"7"[39m
+                [33mwidth[39m=[32m"7"[39m
+                [33mx[39m=[32m"3"[39m
+                [33my[39m=[32m"3"[39m
+              [36m/>[39m
+              [36m<rect[39m
+                [33mheight[39m=[32m"7"[39m
+                [33mwidth[39m=[32m"7"[39m
+                [33mx[39m=[32m"14"[39m
+                [33my[39m=[32m"3"[39m
+              [36m/>[39m
+              [36m<rect[39m
+                [33mheight[39m=[32m"7"[39m
+                [33mwidth[39m=[32m"7"[39m
+                [33mx[39m=[32m"14"[39m
+                [33my[39m=[32m"14"[39m
+              [36m/>[39m
+              [36m<rect[39m
+                [33mheight[39m=[32m"7"[39m
+                [33mwidth[39m=[32m"7"[39m
+                [33mx[39m=[32m"3"[39m
+                [33my[39m=[32m"14"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [0mMy Scribbles[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"text-center py-12 sm:py-20 opacity-60"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33mclass[39m=[32m"text-4xl sm:text-6xl mx-auto mb-4"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"1em"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"1em"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"[39m
+              [36m/>[39m
+              [36m<polyline[39m
+                [33mpoints[39m=[32m"14 2 14 8 20 8"[39m
+              [36m/>[39m
+              [36m<line[39m
+                [33mx1[39m=[32m"16"[39m
+                [33mx2[39m=[32m"8"[39m
+                [33my1[39m=[32m"13"[39m
+                [33my2[39m=[32m"13"[39m
+              [36m/>[39m
+              [36m<line[39m
+                [33mx1[39m=[32m"16"[39m
+                [33mx2[39m=[32m"8"[39m
+                [33my1[39m=[32m"17"[39m
+                [33my2[39m=[32m"17"[39m
+              [36m/>[39m
+              [36m<polyline[39m
+                [33mpoints[39m=[32m"10 9 9 9 8 9"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"font-sketch text-xl sm:text-2xl"[39m
+            [36m>[39m
+              [0mBlank Page[0m
+            [36m</div>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"font-hand text-base sm:text-lg mt-2"[39m
+            [36m>[39m
+              [0mNo scribbles found for this user.[0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</main>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+
+ Test Files  1 failed (1)
+      Tests  3 failed (3)
+   Start at  18:26:20
+   Duration  2.44s (transform 219ms, setup 143ms, import 645ms, tests 216ms, environment 1.11s)
+
